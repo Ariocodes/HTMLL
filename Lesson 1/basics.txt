@@ -1,0 +1,8 @@
+<title></title>     webpage's title
+<h1></h1>           1-6; lower number = bigger text size
+<br>                line break
+<hr>                horizontal row
+<p>                 paragraph
+<li></li>           list item
+&nbsp               non-breaking space
+Lorem + TAB         gives a dummy text

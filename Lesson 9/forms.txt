@@ -1,0 +1,70 @@
+    <form action="DO_SOMETHING.PHP">
+
+TEXTBOX:
+        <label for="X">TextBox:</label>
+        <input type="text" id="X" name="X">
+
+        id:                 connects to the label so it can be called out when user clicks on the label X
+        name:               to be called out too but used for the server side.
+        placeholder:        The grey passive/preview text in the textbox used to define what type of input is needed
+
+RADIOBOX:
+        <input type="radio" value="..." id="X" name="title">
+        <label for="X">X</label>
+        <input type="radio" value="..." id="Y" name="title">
+        <label for="Y">Y</label>
+        <input type="radio" value="..." id="Z" name="title">
+        <label for="Z">Z</label>
+
+        name="title" :      causes the other radioboxes to deselect in case another box is selected.
+
+DROPDOWN MENU:
+        <select id="SOMETHING">
+            <option value="opt1">option1</option>
+            <option value="opt2">option2</option>
+            <option value="opt3">option3</option>
+            ...
+        </select>
+
+EMAIL:
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com">
+
+DATE:
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" min="2000-01-01" max="2024-01-01">
+
+NUMBER INPUT:
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+
+        value:              default value
+
+TEL INPUT:
+        <label for="phone">Phone #:</label>
+        <input type="tel" id="phone" name="phone">
+
+PASSWORD:
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" max="12">
+        &nbsp max 12 characters
+
+SLIDER:
+        <label for="slider">Rate us:</label>
+        1<input type="range" step="25" value="100">5
+
+        step="":            it's the step size depending on 100 being the whole slider's size.
+        value="100":        setting default value (which is set on maximum in this case)
+
+FILE:
+        <label for="myfile">upload a file:</label>
+        <input type="file" id="myfile" name="myfile" accept=".txt">
+
+        accept:             only accepts the given format (undefined will accept all formats)
+
+SUBMIT/RESET:
+        <input type="reset">
+        <input type="submit">
+        
+        reset:              resets all the given inputs
+        submit:             does the action defined in <form>

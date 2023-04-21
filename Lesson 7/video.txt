@@ -1,0 +1,3 @@
+<video width=... autoplay loop controls muted>
+    <source src="---.mp4">
+</video>

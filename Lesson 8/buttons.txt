@@ -1,0 +1,3 @@
+<button name="..." type="..." value="..." onclick="..." style="...;...;..">
+    BUTTON TEXT
+</button>
