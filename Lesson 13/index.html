@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- 
+    - CSS is acronym for (Cascading Style Sheets)
+    - Used in conjunction with HTML
+    - Customize the elements and layout of a webpage
+
+    HTML = structure
+    CSS = decorations
+    Javascript = function
+
+    How to include CSS:
+    - Inline    (Only useful for adding a few custom elements)
+    - Internal  (We create a pair of style element in the 
+                head of our HTML document. useful for a single 
+                page website)
+    - External  We can link a CSS file to our HTML file to style 
+                one or all pages of a website (The best method.)
+
+
+Internal/External example:
+            h1{color:green;}
+            |     |     |
+      element|property|value
+
+    First we identify the HTML element that we want to customize
+    with CSS.
+    Then we identify the property of that element that we want to 
+    customize.
+    And after a colon we define a value followed by a semicolon.
+    We can separate each property definition using a semicolon
+    
+-->
+<html>
+    <head>
+        <title>CSS</title>
+
+
+        <style>
+
+
+            /*
+            Internal CSS: 
+            1. all the <p> tags
+            2. using ID to stylize
+            3. elements classed as "top"
+            4. <p> elements classed as "top"
+            5. h3, h4 and h5 elemnts
+            */
+
+
+            /*  1:      */
+            p{
+                background-color:#111111;
+                color:#00aa00;
+
+            }
+
+            /*  2:      */
+            #paragraph2{
+                background-color:#ffffff;
+
+            }
+
+            /*  3:      */
+            .top{
+                background-color:gray;
+                color:bisque;
+            }
+
+            /*  4:      */
+            p.top{
+                background-color:#111111;
+            }
+            
+            /*  5:      */
+            h3,h4,h5{
+                background-color:#111111;
+                color:crimson;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <!-- Inline CSS: -->
+        <h1 style="background-color:#111111;color:#00aa00">CSS Demo</h1>
+        
+        
+        <h1 class="top">CSS Demo (class="top")</h1>
+        <h2 class="top">heading2 (class="top")</h2>
+        <p class="top">(class="top") some ranodm paragraph
+            here talking about cons of something random
+            cause it can.</p>
+        <hr>
+
+        <h4>An h4 text</h4>
+        <h5>An h5 text</h5>
+        <h3>An h3 text</h3>
+
+        <hr>
+        <p id="paragraph1">Paragraph 1: Lorem
+            ipsum dolor sit amet consectetur
+            adipisicing elit. Unde ad voluptatum
+            soluta, fuga amet alias nisi corrupti
+            molestias ab ullam obcaecati sed dolor
+            deserunt cum officia, minima nesciunt
+            excepturi magnam? Lorem ipsum dolor
+            sit amet consectetur adipisicing elit.
+            Magnam ducimus vitae aliquid. Soluta
+            placeat, amet necessitatibus vitae
+            pariatur veniam error architecto odio
+            libero vel praesentium non quisquam
+            fugit debitis similique.</p>
+        
+        <p id="paragraph2">Paragraph 2: Lorem
+            ipsum dolor sit amet consectetur
+            adipisicing elit. Unde ad voluptatum
+            soluta, fuga amet alias nisi corrupti
+            molestias ab ullam obcaecati sed dolor
+            deserunt cum officia, minima nesciunt
+            excepturi magnam? Lorem ipsum dolor
+            sit amet consectetur adipisicing elit.
+            Magnam ducimus vitae aliquid. Soluta
+            placeat, amet necessitatibus vitae
+            pariatur veniam error architecto odio
+            libero vel praesentium non quisquam
+            fugit debitis similique.</p>
+        
+        <p id="paragraph3"> Paragraph 3: Lorem
+            ipsum dolor sit amet consectetur
+            adipisicing elit. Unde ad voluptatum
+            soluta, fuga amet alias nisi corrupti
+            molestias ab ullam obcaecati sed dolor
+            deserunt cum officia, minima nesciunt
+            excepturi magnam? Lorem ipsum dolor
+            sit amet consectetur adipisicing elit.
+            Magnam ducimus vitae aliquid. Soluta
+            placeat, amet necessitatibus vitae
+            pariatur veniam error architecto odio
+            libero vel praesentium non quisquam
+            fugit debitis similique.</p>
+
+
+
+
+
+    </body>
+</html>
