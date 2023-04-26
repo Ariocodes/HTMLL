@@ -1,6 +1,0 @@
-<a href="ADDRESS" target="_blank">CLICK ME</a>
-<a href="ADDRESS" download="filename">DOWNLOAD</a>
-<img src="img.jpg" height=... width=... alt="this is an image">
-                    "200" (in pixels) OR 
-                    50% (in percentage)
-<a href="ADDRESS"><img src="img.jpg"></a>

@@ -1,0 +1,30 @@
+html{
+    color: white;
+    background-image: url("images/space.jpg");
+    background-repeat: no-repeat;
+    background-position: center; /* center of the picture */
+    background-size: cover; /* cover the full width */
+    background-attachment: fixed; /* The background image is now fixed and
+                                    takes up the entire size of the browser
+                                    window*/
+    /*
+    background:linear-gradient(grey, black); 
+            Extends for as much as we have text or other items
+            otherwise it will repeat itself. To prevent that:
+    background-repeat: no-repeat;
+            Extends for as much as we have items and doesn't repeat anymore
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+}
+h1{
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+
+}
+p{
+    background: linear-gradient(to right, grey, black);
+}
+#mytext{
+    background: linear-gradient(to right, grey, black);
+}

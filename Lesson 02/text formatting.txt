@@ -1,9 +1,0 @@
-<b></b>             bold
-<i></i>             italic
-<sub></sub>         subscript
-<sup></sup>         superscript
-<small></small>     small
-<big></big>         big
-<ins></ins>         inserted
-<del></del>         deleted
-<mark></mark>       marked

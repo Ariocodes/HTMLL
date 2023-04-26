@@ -1,0 +1,28 @@
+p{
+    background-color:#111111;
+    color:#00aa00;
+
+}
+
+/*  2:      */
+#paragraph2{
+    background-color:#ffffff;
+
+}
+
+/*  3:      */
+.top{
+    background-color:gray;
+    color:bisque;
+}
+
+/*  4:      */
+p.top{
+    background-color:#111111;
+}
+
+/*  5:      */
+h3,h4,h5{
+    background-color:#111111;
+    color:crimson;
+}
