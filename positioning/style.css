@@ -1,0 +1,91 @@
+/* text-alignment
+
+p{
+    border: 1px solid;
+    width: 250px;
+}
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align: center;
+}
+#p3{
+    text-align: right;
+}
+*/
+
+
+
+/* float property
+
+img{
+    border: 2px solid;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+}
+div{
+    background-color: rgb(170, 169, 169);
+    border: 2px solid;
+    width: 300px;
+    margin-left: 25%;
+    padding: 8px;
+    border-radius: 5px;
+}
+*/
+
+
+
+
+/* Position property */
+h1{
+    border: 1px solid;
+    background: yellow;
+    width: 200px;
+
+    position: fixed;
+    /* fixed in place within viewport
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    */
+
+    position: relative;
+    /* relative to it's normal position
+    bottom: 50px;
+    left: 50px;
+    */
+
+    position: sticky;
+    /* stick to viewport when scrolling
+    top: 5px;
+    */
+
+    position: static;
+    /* default */
+}
+
+#box1{
+    position: relative;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#box2{
+    position: absolute;
+    /* position is relative to it's position anscestor */
+    /* otherwise relative to viewport */
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    top: 50px;
+    left: 50px;
+}
